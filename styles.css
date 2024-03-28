@@ -1,0 +1,29 @@
+.navbar{
+  border-bottom: 100%;
+  border-top: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 4px;
+  /* justify-content: space-evenly; */
+}
+.avatar{ 
+  width: 200px;
+  border-radius: 50%;
+}
+.table-user{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 3px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+td{
+  border: 3px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
